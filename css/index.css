@@ -1,0 +1,180 @@
+* {
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+
+  }
+  body{
+    padding: 20px 60px 20px 60px;  
+  }
+
+  #navbarProduct
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 10px 20px 10px 20px;
+   
+  }
+  .nav-items{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-family: 'Poppins','sans-serif';
+    font-size: 20px;
+   font-style: normal;
+   cursor: pointer;
+  }
+  .active-item{
+    color:#FE5E35;
+  }
+  #navEnd{
+    cursor: pointer;
+  }
+  .intro-section{
+    display: flex;
+  }
+  .left-section{ 
+    width: 680px;  
+  }
+ 
+  .newProduct-Circle{
+    
+    display: flex;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .newProduct-Circle h3
+  {
+    margin-top: 20px;
+    font-family: "Poppins","sans-serif";
+    
+  }
+  .newProduct-Circle img{
+    height: 25px;
+    margin-top: 18px;
+    margin-left: 10px;
+  }
+  .Wireless-head{
+    display: block;
+    width: 600px;
+   
+    margin-top: 10px;
+    font-family: "Fredoka One","sans-serif";
+    font-size: 25px;
+    margin-left: 18px;
+  }
+  /* .sub-headlines h5{
+   border: 2px solid purple;
+   margin-top: 1px;
+   text-align:left;
+  } */
+  .sub-headlines{
+    
+    font-family: "Poppins","sans-serif";
+    margin-left: 60px;
+    margin-top: 20px;
+   
+  }
+  .sub-headline img{
+    /* border: 2px solid orange; */
+    background-color:#FE5E35;
+    border-radius: 0.8rem;
+    height: 20px;
+    padding: 4px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .product-text{
+    margin-top: 40px;
+    font-family: 'poppins';
+    color: #9F9F9F;
+    
+    font-size: 12px;
+    width: 600px;
+  }
+  .action-btns{
+    margin-top: 45px;
+   
+  }
+  /* .right-section{
+    border: 2px solid orange; 
+    background-color: aqua;
+  } */
+  .headphone-div{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .discount{
+  position: absolute;
+  margin-top:200px ;
+  height: 95px;
+  margin-left: 5px;
+  filter: drop-shadow(3px 6px 1px rgb(0 0 0 / 0.4));
+  }
+
+  .headphone{
+   height: 350px;
+   width: 100%;
+   margin-left: 32px;
+  }
+  .discount-content{
+    position: absolute;
+    margin-top:225px ;
+   font-size: 10px;
+   margin-left: 30px;
+   color: white;
+   font-family: "Poppins","sans-serif";
+  }
+  .discount-content h1{
+    display: block; 
+    font-weight: bolder;
+  }
+  .add-btn{
+  
+    margin-top:25px;
+    width: 150px;
+    margin-left: 160px;
+  }
+  .action-btn{
+    background-color:#FE5E35;
+    color: white;
+    border-radius: 1.8em;
+    padding: 6px 25px;
+    font-family: "Poppins","sans-serif";
+    font-size: 12px;
+    border: 2px solid transparent;
+    cursor: grab;
+  }
+  .dots{
+    display: flex;
+    gap: 15px;
+    margin-left:170px ;
+    width: 100px;
+    height: 25px;
+  }
+  .dot{
+    cursor: pointer;
+    border-radius: .9rem;
+    height: 20px;
+    padding: 10px;
+    margin-top: 1px;
+    text-align: center;
+  }
+  .yellow-dot{
+    background-color: #fbd101;
+  }
+  .tomato-dot{
+    background-color: #FE5E35;
+  }
+  .black-dot{
+    background-color: black;
+  }
